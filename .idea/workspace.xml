@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51cfa65e-dff8-444d-906d-cfc2a8aa9430" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercise_2/Numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NumbersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercise_3/CurricularUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CurricularUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise_3/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise_3/Grade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NumbersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +82,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.Numbers_Test.isPrimeTest">
-    <configuration name="Numbers_Test.isEvenTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CurricularUnitTest.searchStudentTest">
+    <configuration name="CurricularUnitTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -94,7 +96,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;Numbers_Test.isEvenTest&quot;" />
+            <option value="&quot;CurricularUnitTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -104,7 +106,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Numbers_Test.isMultipleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CurricularUnitTest.averageCUTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -117,7 +119,53 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;Numbers_Test.isMultipleTest&quot;" />
+            <option value="&quot;CurricularUnitTest.averageCUTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CurricularUnitTest.searchStudent" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;CurricularUnitTest.searchStudent&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CurricularUnitTest.searchStudentTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;CurricularUnitTest.searchStudentTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -150,59 +198,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Product_Tests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;Product_Tests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ShoppingCart_Tests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ShoppingCart_Tests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CurricularUnitTest.searchStudentTest" />
+        <item itemvalue="Gradle.CurricularUnitTest.averageCUTest" />
+        <item itemvalue="Gradle.CurricularUnitTest.searchStudent" />
+        <item itemvalue="Gradle.CurricularUnitTest" />
         <item itemvalue="Gradle.Numbers_Test.isPrimeTest" />
-        <item itemvalue="Gradle.Numbers_Test.isEvenTest" />
-        <item itemvalue="Gradle.Numbers_Test.isMultipleTest" />
-        <item itemvalue="Gradle.ShoppingCart_Tests" />
-        <item itemvalue="Gradle.Product_Tests" />
       </list>
     </recent_temporary>
   </component>
