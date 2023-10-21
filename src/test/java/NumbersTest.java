@@ -13,7 +13,6 @@ public class NumbersTest {
         numbers = new Numbers();
     }
 
-
     @ParameterizedTest
     @ValueSource(ints = {7,23,311,487,653,947})
     void isPrimeTest(int number){
